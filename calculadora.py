@@ -38,8 +38,7 @@ if opcion == "d":
     if num2 != 0:
         res = num1/num2
 else:
-    print("No se seleccionaste ninguna opcion capo")
-
+    print("No se seleccionaste ninguna opcion matematica 'genio' ")
 """ PASO 3 MOSTRAR RESULTADO O EN SU DEFECTO MENSAJE SI HAY ERROR DE VARIABLES """
 print(f"El resultado es:{res}")
 
