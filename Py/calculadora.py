@@ -19,7 +19,7 @@ opcion = input("Selecciona lo que quieres hacer con el numero:\n\
     R r=Resta\n\
     M m=Multiplicacion\n\
     D d=Divicion"
-               )
+)
 
 """ NUM2 VARIABLE 2 A CALCULAR """
 num2 = int(input("Numero 2:"))
