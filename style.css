@@ -44,6 +44,10 @@ button:active {
 button:focus {
   outline: none;
 }
+.col-2 {
+  grid-column: span 2;
+}
+
 .display {
   grid-column: 1 /  -1;
   padding: 16px;
@@ -61,4 +65,11 @@ button:focus {
   justify-content: space-between;
   word-break: break-all;
   box-shadow: 0px 0px 0px 10px #00000033;
+}
+
+#valorSuperior {
+  font-size: 1.5em;
+}
+#valorInferior {
+  font-size: 2em;
 }
