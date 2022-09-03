@@ -18,3 +18,4 @@ class Display {
     this.displayValorSuperior.textContent = this.ValorSuperior;
   }
 }
+/* Snakeyes */

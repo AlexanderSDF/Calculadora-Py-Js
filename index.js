@@ -8,3 +8,4 @@ const display = new Display(displayValorSuperior, displayValorInferior);
 botonesNumeros.forEach(boton => {
   boton.addEventListener('click', ()=> display.agregarNumero(boton.innerHTML));
 });
+/* Snakeyes */
