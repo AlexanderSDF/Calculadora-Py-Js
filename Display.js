@@ -1,16 +1,15 @@
-/* va ser la encargada de controlar la calculadora
-interactua con los botones y muestra en pantalla */
 class Display {
-  constructor(displayValorSuperior, displayValorInferior){
-    this.displayValorInferior = displayValorSuperior;
-    this.displayValorSuperior = displayValorInferior;
+  constructor(displayValorAnterior, displayValorActual) {
+    this.displayValorActual = displayValorActual;
+    this.displayValorAnterior = displayValorAnterior;
     this.calculador = new calculadora();
-    this.ValorInferior = '';
-    this.ValorSuperior = '';
+    this.ValorActual = "";
+    this.ValorAnterior = "";
   }
+
   agregarNumero(numero) {
     this.ValorInferior = numero;
-    this.imprimirValores();
+    this.imprimirValores ();
   }
 
   imprimirValores() {
@@ -18,4 +17,3 @@ class Display {
     this.displayValorSuperior.textContent = this.ValorSuperior;
   }
 }
-/* Snakeyes */

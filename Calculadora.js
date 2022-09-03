@@ -1,7 +1,4 @@
-/* Crea las operaciones basicas de la calculadora
-SUMA-RESTA-MULTIPLICACION-DIVISION */
-
-class Calculadora { 
+class Calculadora {
   sumar(num1, num2) {
     return num1 + num2;
   }
