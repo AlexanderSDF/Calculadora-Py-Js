@@ -2,18 +2,18 @@ class Display {
   constructor(displayValorAnterior, displayValorActual) {
     this.displayValorActual = displayValorActual;
     this.displayValorAnterior = displayValorAnterior;
-    this.calculador = new calculadora();
+    this.calculador = new Calculadora();
     this.ValorActual = "";
     this.ValorAnterior = "";
   }
 
   agregarNumero(numero) {
-    this.ValorInferior = numero;
-    this.imprimirValores ();
+    this.ValorActual = this.ValorActual + numero;
+    this.imprimirValores();
   }
 
   imprimirValores() {
-    this.displayValorInferior.textContent = this.ValorInferior;
-    this.displayValorSuperior.textContent = this.ValorSuperior;
+    this.displayValorActual.textContent = this.ValorActual;
+    this.displayValorAnterior.textContent = this.ValorAnterior;
   }
 }
